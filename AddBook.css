@@ -1,0 +1,54 @@
+.add-book-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.add-book-container h2 {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.add-book-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.add-book-container input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.add-book-container input:focus {
+  border-color: #007bff;
+}
+
+.add-book-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-book-container button:hover {
+  background-color: #0056b3;
+}
+
+.add-book-container p {
+  margin-top: 15px;
+  color: #28a745;
+  font-weight: 500;
+}
